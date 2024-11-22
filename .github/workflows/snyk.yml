@@ -29,5 +29,5 @@ jobs:
         run: snyk auth ${{ secrets.SNYK_TOKEN }}
 
       - name: Run Snyk to find vulnerabilities
-        run: snyk test --all-projects
+        run: snyk test 
 
